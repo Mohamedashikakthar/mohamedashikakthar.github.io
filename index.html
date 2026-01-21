@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boss Ashik | Data Scientist</title>
+
+<style>
+:root {
+  --accent: gold;
+  --accent-secondary: brown;
+}
+body {
+  background:#0f172a;
+  color:#e5e7eb;
+  font-family: 'Segoe UI', sans-serif;
+  margin:0;
+}
+.hero {
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:60px;
+  background:linear-gradient(135deg,#020617,#0f172a);
+}
+.hero-name {
+  font-size:3.2rem;
+  font-weight:800;
+  background:linear-gradient(90deg,brown,gold);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.hero-desc {
+  max-width:520px;
+  color:#cbd5f5;
+  margin:20px 0;
+}
+.hero-img {
+  width:300px;
+  height:300px;
+  border-radius:20px;
+  object-fit:cover;
+  border:4px solid brown;
+}
+.section {
+  max-width:1200px;
+  margin:auto;
+  padding:60px 20px;
+}
+.section-title {
+  font-size:2rem;
+  color:gold;
+  border-left:4px solid gold;
+  padding-left:12px;
+  margin-bottom:20px;
+}
+.skills {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:15px;
+}
+.skill {
+  background:#020617;
+  padding:12px;
+  border-radius:10px;
+  text-align:center;
+  border:1px solid brown;
+}
+.project {
+  background:#020617;
+  border-radius:12px;
+  padding:20px;
+  margin-bottom:20px;
+}
+footer {
+  text-align:center;
+  padding:20px;
+  background:#020617;
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+  <div>
+    <h1 class="hero-name">Boss Ashik</h1>
+    <h3>Data Scientist | Data Analyst</h3>
+    <p class="hero-desc">
+      Passionate Data Scientist specializing in Machine Learning,
+      Data Analysis, and Forecasting using Python, R, SQL, and Power BI.
+    </p>
+  </div>
+  <img src="profile.jpeg" class="hero-img" alt="Boss Ashik">
+</section>
+
+<section class="section">
+  <div class="section-title">Skills</div>
+  <div class="skills">
+    <div class="skill">Python</div>
+    <div class="skill">R Programming</div>
+    <div class="skill">SQL</div>
+    <div class="skill">Machine Learning</div>
+    <div class="skill">Power BI</div>
+    <div class="skill">Time Series (ARIMA)</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title">Projects</div>
+
+  <div class="project">
+    <h3>Gold Price Forecasting (ARIMA)</h3>
+    <p>Forecasted gold prices in India using ARIMA time series model.</p>
+    <a href="https://github.com/yourusername/gold-price-forecasting" target="_blank">View on GitHub →</a>
+  </div>
+
+  <div class="project">
+    <h3>Loan Approval Prediction</h3>
+    <p>Built ML classification models to predict loan approval.</p>
+    <a href="https://github.com/yourusername/loan-approval" target="_blank">View on GitHub →</a>
+  </div>
+
+  <div class="project">
+    <h3>ML Model Deployment using Tkinter</h3>
+    <p>GUI-based ML app for regression & classification.</p>
+    <a href="https://github.com/yourusername/tkinter-ml" target="_blank">View on GitHub →</a>
+  </div>
+
+</section>
+
+<footer>
+© 2026 Boss Ashik | Data Science Portfolio
+</footer>
+
+</body>
+</html>
